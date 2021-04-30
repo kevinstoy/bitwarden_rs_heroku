@@ -12,7 +12,6 @@ env:
   GIT_HASH: master
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
   HEROKU_VERIFIED: 1
-  SIGNUPS_ALLOWED: 'false'
 
 jobs:
   update_and_deploy:
